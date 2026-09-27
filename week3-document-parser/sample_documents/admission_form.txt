@@ -1,0 +1,13 @@
+STUDENT ADMISSION FORM
+National Tutoring Center
+
+Full Name: Ahmed Raza Khan
+Date of Birth: 12/03/2010
+Guardian Name: Muhammad Raza
+Contact Number: 0321-4567890
+Email: ahmedraza@email.com
+Class Applying For: Grade 8
+Subject Required: Mathematics, Physics
+Preferred Timing: Evening (4pm-6pm)
+Fee Package: Monthly - Rs. 5000
+Date of Application: 15-08-2026
