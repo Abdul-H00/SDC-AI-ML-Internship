@@ -1,0 +1,15 @@
+Failure Gallery - Cause Analysis
+==================================================
+
+failure_01_003076_jpg.rf.90e80490c8b0300c6e2a39d061fe7920.jpg: GT={0: 11, 1: 1, 2: 0}, Pred={0: 3, 1: 4, 2: 0} -> Mixed errors - missed {'head': 8}, extra {'helmet': 3} - likely difficult lighting/angle or class confusion (head vs helmet)
+failure_02_000186_jpg.rf.2881244b29d3ed409220ba27cdbe380c.jpg: GT={0: 0, 1: 17, 2: 0}, Pred={0: 0, 1: 23, 2: 0} -> False positive(s): {'helmet': 6} - likely background clutter or overlapping objects confused for PPE
+failure_03_000486_jpg.rf.4682b81372ff0569a0a28429796ff668.jpg: GT={0: 4, 1: 0, 2: 0}, Pred={0: 9, 1: 0, 2: 0} -> False positive(s): {'head': 5} - likely background clutter or overlapping objects confused for PPE
+failure_04_001338_jpg.rf.9bc2614b49fe4be50767e877a26efb41.jpg: GT={0: 0, 1: 3, 2: 4}, Pred={0: 0, 1: 1, 2: 1} -> Missed detection(s): {'helmet': 2, 'vest': 3} - likely occlusion, small scale, or low contrast against background
+failure_05_001575_jpg.rf.a13bb22589fe2220f6794ee7e21e7b90.jpg: GT={0: 0, 1: 4, 2: 0}, Pred={0: 5, 1: 4, 2: 0} -> False positive(s): {'head': 5} - likely background clutter or overlapping objects confused for PPE
+failure_06_001883_jpg.rf.92bbe5894ec78c77378b728fde0489c9.jpg: GT={0: 2, 1: 9, 2: 0}, Pred={0: 1, 1: 13, 2: 0} -> Mixed errors - missed {'head': 1}, extra {'helmet': 4} - likely difficult lighting/angle or class confusion (head vs helmet)
+failure_07_000606_jpg.rf.4214730bb4c021c00f2a74d29f2983da.jpg: GT={0: 0, 1: 1, 2: 0}, Pred={0: 0, 1: 1, 2: 4} -> False positive(s): {'vest': 4} - likely background clutter or overlapping objects confused for PPE
+failure_08_000713_jpg.rf.70a24c85f72c1a4679a05abd3f5cd6f5.jpg: GT={0: 2, 1: 5, 2: 0}, Pred={0: 0, 1: 3, 2: 0} -> Missed detection(s): {'head': 2, 'helmet': 2} - likely occlusion, small scale, or low contrast against background
+failure_09_000928_jpg.rf.f04139d33aedf4050586f6a0855d7cca.jpg: GT={0: 0, 1: 2, 2: 2}, Pred={0: 1, 1: 1, 2: 0} -> Mixed errors - missed {'helmet': 1, 'vest': 2}, extra {'head': 1} - likely difficult lighting/angle or class confusion (head vs helmet)
+failure_10_000993_jpg.rf.6435f9dcfbd5d1ce99ab0cfe917c61c9.jpg: GT={0: 0, 1: 4, 2: 5}, Pred={0: 0, 1: 4, 2: 1} -> Missed detection(s): {'vest': 4} - likely occlusion, small scale, or low contrast against background
+failure_11_001597_jpg.rf.8baba4b278efcca6f6e2783fb7ec6b17.jpg: GT={0: 0, 1: 5, 2: 4}, Pred={0: 0, 1: 5, 2: 0} -> Missed detection(s): {'vest': 4} - likely occlusion, small scale, or low contrast against background
+failure_12_001905_jpg.rf.a7563dbc0594fec9a10c789a1549ccf2.jpg: GT={0: 7, 1: 3, 2: 0}, Pred={0: 10, 1: 2, 2: 0} -> Mixed errors - missed {'helmet': 1}, extra {'head': 3} - likely difficult lighting/angle or class confusion (head vs helmet)
